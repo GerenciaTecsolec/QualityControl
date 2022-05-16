@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: E./TECSOLEC/TradeBay/Quality_Control_AS/app/libs/msutil.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/msutil.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

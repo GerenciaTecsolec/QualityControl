@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:overScrollMode="ifContentScrolls" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ventas1"
+        android:scrollbars="horizontal" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="#888"
+                    android:text="Quality Control Report per Lot.   "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textColorLink="@color/Letras"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CLIENT: "
+                        android:textColor="@color/Letras"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtCliente"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textColor="@color/Letras" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PLANT: "
+                        android:textColor="@color/Letras"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtPlanta"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Letras" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ORDER #: "
+                        android:textColor="@color/Letras"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtNumero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="txtOrder"
+                        android:textColor="@color/Letras" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="STATUS: "
+                        android:textColor="@color/Letras"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textColor="@color/Letras" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="5dp" >
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LOT: "
+                        android:textColor="@color/Letras"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtLot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textColor="@color/Letras" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PRODUCT:  "
+                        android:textColor="@color/Letras"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtTalla"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textColor="@color/Letras" />
+                </LinearLayout>
+
+                <ExpandableListView
+                    android:id="@+id/ListMuestras"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/expandable_design"
+                    android:divider="#FFFFFF"
+                    android:dividerHeight="2dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:groupIndicator="@drawable/indicador_expandable2" >
+                </ExpandableListView>
+
+                <GridView
+                    android:id="@+id/gridfotos"
+                    style="@style/scrollbar_shape_stylevertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:fadeScrollbars="false"
+                    android:fadingEdge="horizontal"
+                    android:gravity="center"
+                    android:horizontalSpacing="10dp"
+                    android:numColumns="2"
+                    android:scrollbarStyle="insideInset"
+                    android:verticalSpacing="10dp" >
+                </GridView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    </FrameLayout>
+
+</RelativeLayout>

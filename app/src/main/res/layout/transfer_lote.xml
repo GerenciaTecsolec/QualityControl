@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:padding="4dp" >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:autoLink="web"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:text="TRANSFER LOTE BETWEEN ORDER"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Letras"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="2"
+        android:background="@drawable/ventas1"
+        android:orientation="horizontal" >
+
+        <com.example.quality_control.LinearLayoutListView
+            android:id="@+id/pane1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/background_light"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtOrdenprincipal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Order Initial"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <ListView
+                    android:id="@+id/listview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp" >
+
+                </ListView>
+
+            </LinearLayout>
+
+        </com.example.quality_control.LinearLayoutListView>
+		
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+	        <ImageView
+	            android:id="@+id/imageView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:src="@drawable/flechas" />
+	        
+		</LinearLayout>
+        <com.example.quality_control.LinearLayoutListView
+            android:id="@+id/pane2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/background_light"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txttipo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:linksClickable="true"
+                    android:text="Choice a Order:"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <Spinner
+                    android:id="@+id/cmbOrders"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true" />
+
+                <ListView
+                    android:id="@+id/listview2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1" >
+
+                </ListView>
+
+            </LinearLayout>
+
+        </com.example.quality_control.LinearLayoutListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/lyBotones"
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnsavetransfer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               
+                android:text="SAVE"
+                android:textColor="@color/naranja"
+                android:textStyle="bold" 
+                android:onClick="SaveTransfer"/>
+
+            <Button
+                android:id="@+id/btncanceltransfer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CANCEL"
+                android:textColor="@color/naranja"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/prompt"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@android:color/black"
+        android:gravity="bottom"
+        android:textColor="@android:color/white"
+        android:visibility="invisible" />
+
+</LinearLayout>

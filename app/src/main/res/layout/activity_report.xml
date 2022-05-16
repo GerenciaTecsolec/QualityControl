@@ -1,0 +1,263 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/ventas1"
+        android:orientation="vertical" >
+		
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:focusableInTouchMode="true" >
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:orientation="vertical" >
+
+                    <com.example.quality_control.ExtendedViewPager
+                        android:id="@+id/view_pager"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_marginTop="10dp" >
+                    </com.example.quality_control.ExtendedViewPager>
+                    
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/txtdef1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="5dp"
+                    android:text="Product Photos"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+<!--                 <LinearLayout -->
+<!--                     android:layout_width="match_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_marginBottom="8dp" -->
+<!--                     android:layout_marginTop="20dp" -->
+<!--                     android:orientation="horizontal" > -->
+
+<!--                     <TextView -->
+<!--                         android:id="@+id/txtdef2" -->
+<!--                         android:layout_width="wrap_content" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:background="@color/naranja" -->
+<!--                         android:text="PRODUCT" -->
+<!--                         android:textAppearance="?android:attr/textAppearanceSmall" -->
+<!--                         android:textColor="@color/Letras" -->
+<!--                         android:textStyle="bold" /> -->
+
+<!--                     <TextView -->
+<!--                         android:id="@+id/txtdef3" -->
+<!--                         android:layout_width="wrap_content" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:background="@color/naranja" -->
+<!--                         android:text="SIZE" -->
+<!--                         android:textAppearance="?android:attr/textAppearanceSmall" -->
+<!--                         android:textColor="@color/Letras" -->
+<!--                         android:textStyle="bold" /> -->
+
+<!--                     <TextView -->
+<!--                         android:id="@+id/txtdef4" -->
+<!--                         android:layout_width="wrap_content" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:background="@color/naranja" -->
+<!--                         android:text="MASTER" -->
+<!--                         android:textAppearance="?android:attr/textAppearanceSmall" -->
+<!--                         android:textColor="@color/Letras" -->
+<!--                         android:textStyle="bold" /> -->
+
+<!--                     <TextView -->
+<!--                         android:id="@+id/txtdef5" -->
+<!--                         android:layout_width="wrap_content" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:background="@color/naranja" -->
+<!--                         android:text="PACKING" -->
+<!--                         android:textAppearance="?android:attr/textAppearanceSmall" -->
+<!--                         android:textColor="@color/Letras" -->
+<!--                         android:textStyle="bold" /> -->
+
+<!--                     <TextView -->
+<!--                         android:id="@+id/txtdef6" -->
+<!--                         android:layout_width="wrap_content" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:background="@color/naranja" -->
+<!--                         android:text="BRAND" -->
+<!--                         android:textAppearance="?android:attr/textAppearanceSmall" -->
+<!--                         android:textColor="@color/Letras" -->
+<!--                         android:textStyle="bold" /> -->
+<!--                 </LinearLayout> -->
+
+<!--                 <LinearLayout -->
+<!--                     android:layout_width="match_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:orientation="vertical" > -->
+
+<!--                     <GridView -->
+<!--                         android:id="@+id/detalleorder" -->
+<!--                         android:layout_width="match_parent" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:horizontalSpacing="5dp" -->
+<!--                         android:numColumns="1" -->
+<!--                         android:scrollbars="none" -->
+<!--                         android:verticalSpacing="2dp" > -->
+<!--                     </GridView> -->
+
+<!--                 </LinearLayout> -->
+                
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginBottom="5dp"
+                     android:layout_marginTop="20dp"
+                     android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/txtDefectProducto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/naranja"
+                        android:text="LOT"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/Letras"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtDefectSize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/naranja"
+                        android:text="SIZE"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/Letras"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtDefectPacking"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/naranja"
+                        android:text="TOTAL  PIECES"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/Letras"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtDefectTotalDefecto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/naranja"
+                        android:text="COUNT"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/Letras"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDefectBotones"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/naranja"
+                        android:text="TOTAL  DEFECTS"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/Letras"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginBottom="5dp"
+                     android:background="#500e1452" >
+
+                     <TextView
+                         android:id="@+id/txtfechaproceso"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="10dp"
+                         android:text="Approved /"
+                         android:textAppearance="?android:attr/textAppearanceSmall"
+                         android:textColor="#dcf8c6"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/txtdef9"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text=" Rejected"
+                         android:textAppearance="?android:attr/textAppearanceSmall"
+                         android:textColor="#b94948"
+                         android:textStyle="bold" />
+
+                 </LinearLayout>
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <GridView
+                        android:id="@+id/detallespecifico"
+                        android:layout_width="match_parent"
+                        android:layout_height="500dp"
+                        android:horizontalSpacing="5dp"
+                        android:numColumns="1"
+                        android:scrollbars="none"
+                        android:verticalSpacing="2dp" >
+                    </GridView>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/borde_boton"
+                    android:onClick="btnreportecompleto_Click"
+                    android:text="Final Report"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/borde_boton"
+                    android:text="Shippment Photos"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" 
+                    android:onClick="btnGaleryEmbarque_Click"/>
+
+            </LinearLayout>
+		
+		</ScrollView>
+    
+    </LinearLayout>
+
+</RelativeLayout>

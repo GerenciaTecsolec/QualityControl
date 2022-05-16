@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+ <LinearLayout
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:background="@drawable/ventas1"
+ 	android:orientation="vertical" >
+  
+		<LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical" >
+	
+                <ImageView 
+                    android:id="@+id/logo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/logoazul" />
+                
+                <TextView
+                    android:id="@+id/Titulo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#888"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="30dp"
+                    android:text=".:: PROCESS CONTROL ::."
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+                
+	        	</LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtOrdenprincipal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sample #:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/Letras"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtnumeromuestra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:textColor="@color/naranja"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+   
+    <ScrollView
+        android:id="@+id/scrolllote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:paddingBottom="20dp" 
+        android:fadeScrollbars="false">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:baselineAligned="true"
+            android:focusable="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtppm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="Client:"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtMNombreEmpresa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    
+                    android:enabled="false"
+                    android:textColor="@color/Letras"
+                    android:textColorLink="@color/naranja" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txttotalnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order: "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtOrderM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtcliente"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Code Lote:"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/cmbLote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtpsoneto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product:"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtProduct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txttotalpor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GROSS WEIGHT:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtpesobruto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtsoftpor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NET WEIGHT:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtpesoneto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txttiepor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COUNT:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtconteo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/txttienum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOTAL PIECES:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtpiezas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/txtdeformednum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UNIFORMITY:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtuniformity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/txtsoftnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PPM:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtpesodeclarado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/Letras" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+
+            <!-- Defectos -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lblBadDecapitated"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BAD DECAPITATED:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtbaddecapitated"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lblBlackGills"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BLACK GILLS:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtblackgills"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lblBlackHead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BLACK HEAD:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtblackhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lblBlackSpots"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BLACK SPOTS:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtblackspot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lblbroken"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BROKEN:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtbroken"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lblbustedhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BUSTED HEAD:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtbustedhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbldamaged"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DAMAGED:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtdamaged"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbldeformed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEFORMED:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtdeformed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbldehydrated"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEHYDRATED:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtdehydrated"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lblDirtyGills"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DIRTY GILLS:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtdirtygills"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lblloosehead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LOOSE HEAD:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtloosehead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lblmelanosis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MELANOSIS:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtmelanosis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lblMixSpecies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MIX SPECES:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtmixspecies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lblmolted"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MOLTED:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtmolted"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbloutsize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OUT OF SIZE:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtoutsize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lblredhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RED HEAD:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtredhead"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lblRedShell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RED SHELL:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtredshell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutsoft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lblsoft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SOFT:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtsoft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lblStrangeMaterials"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="STRANGE MATERIALS:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtStrangeMaterials"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txttotalpiezas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FLAVOR:"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/cmbflavor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtobservacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OLOR:"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/cmbolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtmelanosisnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TEXTURE:"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/cmbtextura"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txttextura"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COLOR:"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/cmbcolor"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@color/naranja" >
+
+                <CheckBox
+                    android:id="@+id/chkapproved"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rejected"
+                    android:textColor="@android:color/black"
+                    android:textColorLink="@color/naranja"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background" >
+    
+    <!-- ExtendedViewPager is a custom view and must be referred to by its full package name in XML -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ventas1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+<!--           <Button -->
+<!-- 		    android:id="@+id/btnShare" -->
+<!-- 		    android:layout_width="wrap_content" -->
+<!-- 		    android:layout_height="wrap_content" -->
+<!-- 		    android:text="Shared" -->
+<!-- 		    android:textColor="@color/Blanco" -->
+<!--           	android:onClick="btnShare_Click" /> -->
+          	
+          	          
+        <com.example.quality_control.ExtendedViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center" >
+
+        </com.example.quality_control.ExtendedViewPager>
+
+<!--         <TextView -->
+<!--             android:id="@+id/txt_tipofoto" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:background="@android:color/black" -->
+<!--             android:padding="5dp" -->
+<!--             android:textAppearance="?android:attr/textAppearanceSmall" -->
+<!--             android:textColor="@color/Blanco" /> -->
+    </LinearLayout>
+	
+</RelativeLayout>

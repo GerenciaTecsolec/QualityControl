@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+   	    android:id="@+id/search_icon"
+   	    android:icon="@drawable/buscar"
+   	    android:title="@string/SearchLote"
+   		android:showAsAction="always"
+   		android:titleCondensed="Search Lote">
+   	</item>
+   	<item 
+   	    android:id="@+id/delete_icon"
+   	    android:icon="@drawable/trash"
+   	    android:title="@string/DeleteLote"
+   		android:showAsAction="always"
+   		android:titleCondensed="Delete Lote">
+   	</item>
+   	<item 
+   	    android:id="@+id/lote_edit"
+   	    android:icon="@drawable/pencil"
+   	    android:title="@string/Take_Picture"
+   		android:showAsAction="always"/>
+   	<item 
+   	    android:id="@+id/lote_save"
+   	    android:icon="@drawable/saved"
+   	    android:title="@string/SaveLote"
+   		android:showAsAction="always"/>
+   	
+   	<item 
+   	    android:id="@+id/lote_camera"
+   	    android:icon="@drawable/camera"
+   	    android:title="@string/Take_Picture"
+   		android:showAsAction="always"/>
+</menu>
+

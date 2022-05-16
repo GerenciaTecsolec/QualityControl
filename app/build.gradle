@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "25.0.1"
+
+    defaultConfig {
+        applicationId "com.example.quality_control"
+        minSdkVersion 17
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 26
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            setProguardFiles([getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'])
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/zigbert.rsa'
+        exclude 'META-INF/zigbert.sf'
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+}
+
+repositories {
+    jcenter()
+    mavenCentral()   // This repo should have the gradle plugin
+}
+
+dependencies {
+    //noinspection GradleCompatible
+    implementation('com.android.support:support-v4:26.1.0')
+    compile files('libs/dropbox-android-sdk-1.6.3.jar')
+    compile files('libs/json_simple-1.1.jar')
+    compile files('libs/jtds-1.3.1.jar')
+    compile files('libs/msbase.jar')
+    compile files('libs/mssqlserver.jar')
+    compile files('libs/msutil.jar')
+    compile files('libs/picasso-2.5.2.jar')
+    compile files('libs/ksoap2.jar')
+    compile files('libs/httpclient-4.4.jar')
+    compile files('libs/httpmime-4.3.jar')
+    compile files('libs/httpcore-4.4.jar')
+    compile files('libs/apache-mime4j-core-0.7.2.jar')
+    compile files('libs/commons-net-3.5.jar')
+}

@@ -1,0 +1,522 @@
+[
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_screen_slide.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\menu\\activity_screen_slide.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_reporte.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\reporte.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_drawer_shadow.9.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-xxhdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_muestra_action.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\menu\\menu_muestra_action.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_prueb.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\prueb.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_solo_logo.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\solo_logo.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_item2.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\spinner_item2.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_gid_reporte_a.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\gid_reporte_a.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ventas1.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-mdpi\\ventas1.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_grid_style.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\grid_style.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_pages.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\pages.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_report_lote.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\report_lote.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_grid_reporte.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\grid_reporte.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_down.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\down.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logoazul.jpg.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-mdpi\\logoazul.jpg"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_verde.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\verde.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_shrimp_transfer.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\shrimp_transfer.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_menuprincipal.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\menuprincipal.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_camera.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\camera.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\menu_global.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\menu\\global.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_transfer_lote.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\transfer_lote.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_lote_action.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\menu\\menu_lote_action.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_itemsgrid.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\itemsgrid.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_gid_reporte_b.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\gid_reporte_b.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_camara.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\camara.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_a.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\a.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_grid_fotos.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\grid_fotos.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ok3.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\ok3.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_lote.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\lote.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_border_cabecera.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\border_cabecera.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\menu_inventary.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\menu\\inventary.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\menu_main_activity_action.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\menu\\main_activity_action.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_prueba_pop_up_new_line.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\activity_prueba_pop_up_new_line.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_drawer_shadow.9.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-mdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_toast1.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\toast1.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_foto_lote.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\foto_lote.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\menu_home.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\menu\\home.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_foto_embarque.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\foto_embarque.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_galery.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\galery.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_grid_reporte_fijo.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\grid_reporte_fijo.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ok2.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\ok2.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_indicador_expandable2.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\indicador_expandable2.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_dialog_alert.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\ic_dialog_alert.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_up1.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\up1.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btnaddmuestra2.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\btnaddmuestra2.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_flechas.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\flechas.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_alert.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\alert.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_grid_inventario.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\grid_inventario.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_ingreso_action.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\menu\\menu_ingreso_action.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_prueba.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\activity_prueba.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btnaddmuestra.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-xhdpi\\btnaddmuestra.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_borde_boton.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\borde_boton.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_selector_filas.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-mdpi\\selector_filas.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_galeria_embarque.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\galeria_embarque.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_drawer.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-xhdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_drawer.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_gridstyle.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\gridstyle.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ok.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\ok.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_indicador_expandable.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\indicador_expandable.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_embarque_action.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\menu\\menu_embarque_action.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_foto_view2.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\foto_view2.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_grid_detalle.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\grid_detalle.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_lote.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\lote.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_row.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\row.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_saved.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\saved.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_fondo_seleccionado.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-mdpi\\fondo_seleccionado.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_drawer.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-mdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\menu_report.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\menu\\report.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_paths.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\menu_fotoview.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\menu\\fotoview.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btnaddmuestra.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\btnaddmuestra.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_drawer_shadow.9.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_transfer.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\popup_transfer.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_amarillo.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\amarillo.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_viewpager_example.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\activity_viewpager_example.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_inventary.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\activity_inventary.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_expandable_design.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\expandable_design.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_load1.jpg.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\load1.jpg"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_item.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\activity_report.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_drawer.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-xxhdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_buscar.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\buscar.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_scrollbar_vertical_track.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\scrollbar_vertical_track.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_ingreso_ofl.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\ingreso_ofl.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_actualizar.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\actualizar.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_btnaddmuestra.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-xxhdpi\\btnaddmuestra.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_happyshrimp.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\happyshrimp.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\popup.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_grid_detalle_qc.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\grid_detalle_qc.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\menu_prueba.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\menu\\prueba.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_drawer_shadow.9.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-xhdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_child.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\list_child.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_fotoview.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\menu\\menu_fotoview.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_progress_animation.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\progress_animation.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_grid_singles.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\grid_singles.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_child_row.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\child_row.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_reporte_completo.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\reporte_completo.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_pencil.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\pencil.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_upload.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\upload.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_gid_reporte_c.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\gid_reporte_c.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_share3.jpg.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\share3.jpg"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_lote.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\popup_lote.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_trash.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\trash.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_down1.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\down1.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_up.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\up.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\menu_inventario.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\menu\\inventario.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_foto_viewpager_example.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\foto_viewpager_example.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_group_row.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\group_row.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_fondo_no_seleccionado.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-mdpi\\fondo_no_seleccionado.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_navigation_drawer.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\fragment_navigation_drawer.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_scrollbar_vertical_thumb.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\scrollbar_vertical_thumb.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_ingreso.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\ingreso.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bodega_click.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable\\bodega_click.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btnaddmuestra.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-mdpi\\btnaddmuestra.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_b.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\b.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_muestra.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\popup_muestra.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_exit.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\exit.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_borde.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\borde.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_fotoview.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\fotoview.xml"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_rojo.png.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\drawable-hdpi\\rojo.png"
+    },
+    {
+        "merged": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "E:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\src\\main\\res\\layout\\activity_home.xml"
+    }
+]

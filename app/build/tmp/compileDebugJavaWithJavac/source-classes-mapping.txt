@@ -1,0 +1,191 @@
+com/example/quality_control/DetalleOrder.java
+ com.example.quality_control.DetalleOrder
+com/example/quality_control/Popup_Transfer.java
+ com.example.quality_control.Popup_Transfer
+ com.example.quality_control.Popup_Transfer$1
+ com.example.quality_control.Popup_Transfer$2
+com/example/quality_control/Packing.java
+ com.example.quality_control.Packing
+com/example/quality_control/Transfer_Lote.java
+ com.example.quality_control.Transfer_Lote
+ com.example.quality_control.Transfer_Lote$1
+ com.example.quality_control.Transfer_Lote$2
+ com.example.quality_control.Transfer_Lote$3
+ com.example.quality_control.Transfer_Lote$4
+ com.example.quality_control.Transfer_Lote$5
+ com.example.quality_control.Transfer_Lote$6
+ com.example.quality_control.Transfer_Lote$7
+ com.example.quality_control.Transfer_Lote$Item
+ com.example.quality_control.Transfer_Lote$ItemOnDragListener
+ com.example.quality_control.Transfer_Lote$ItemsListAdapter
+ com.example.quality_control.Transfer_Lote$PassObject
+ com.example.quality_control.Transfer_Lote$ViewHolder
+com/example/quality_control/TouchImageView.java
+ com.example.quality_control.TouchImageView
+ com.example.quality_control.TouchImageView$1
+ com.example.quality_control.TouchImageView$CompatScroller
+ com.example.quality_control.TouchImageView$DoubleTapZoom
+ com.example.quality_control.TouchImageView$Fling
+ com.example.quality_control.TouchImageView$GestureListener
+ com.example.quality_control.TouchImageView$OnTouchImageViewListener
+ com.example.quality_control.TouchImageView$PrivateOnTouchListener
+ com.example.quality_control.TouchImageView$ScaleListener
+ com.example.quality_control.TouchImageView$State
+ com.example.quality_control.TouchImageView$ZoomVariables
+com/example/quality_control/Tipo.java
+ com.example.quality_control.Tipo
+com/example/quality_control/Foto_Lote.java
+ com.example.quality_control.Foto_Lote
+ com.example.quality_control.Foto_Lote$1
+ com.example.quality_control.Foto_Lote$2
+com/example/quality_control/Usuario.java
+ com.example.quality_control.Usuario
+com/example/quality_control/FotoView.java
+ com.example.quality_control.FotoView
+ com.example.quality_control.FotoView$1
+ com.example.quality_control.FotoView$2
+ com.example.quality_control.FotoView$TouchImageAdapter
+com/example/quality_control/Popup_Foto.java
+ com.example.quality_control.Popup_Foto
+ com.example.quality_control.Popup_Foto$1
+ com.example.quality_control.Popup_Foto$2
+com/example/quality_control/ImageAdapter.java
+ com.example.quality_control.ImageAdapter
+com/example/quality_control/Cls_Photo.java
+ com.example.quality_control.Cls_Photo
+com/example/quality_control/Permisos_Activos.java
+ com.example.quality_control.Permisos_Activos
+com/example/quality_control/Cls_Muestra.java
+ com.example.quality_control.Cls_Muestra
+com/example/quality_control/Pages.java
+ com.example.quality_control.Pages
+ com.example.quality_control.Pages$ImageAdapter
+ com.example.quality_control.Pages$ListAdapterDetalle
+com/example/quality_control/Home.java
+ com.example.quality_control.Home
+ com.example.quality_control.Home$PlaceholderFragment
+com/example/quality_control/Reporte_Completo.java
+ com.example.quality_control.Reporte_Completo
+com/example/quality_control/IngresoOFL.java
+ com.example.quality_control.IngresoOFL
+com/example/quality_control/Orden.java
+ com.example.quality_control.Orden
+com/example/quality_control/Ingreso.java
+ com.example.quality_control.Ingreso
+ com.example.quality_control.Ingreso$1
+ com.example.quality_control.Ingreso$2
+ com.example.quality_control.Ingreso$3
+ com.example.quality_control.Ingreso$4
+ com.example.quality_control.Ingreso$5
+ com.example.quality_control.Ingreso$6
+ com.example.quality_control.Ingreso$7
+ com.example.quality_control.Ingreso$8
+ com.example.quality_control.Ingreso$9
+com/example/quality_control/LinearLayoutListView.java
+ com.example.quality_control.LinearLayoutListView
+com/example/quality_control/Report.java
+ com.example.quality_control.Report
+ com.example.quality_control.Report$1
+ com.example.quality_control.Report$ListAdapterDetalleQC
+ com.example.quality_control.Report$ListaMaster
+ com.example.quality_control.Report$Startsyntask
+ com.example.quality_control.Report$TouchImageAdapter
+ com.example.quality_control.Report$TouchImageAdapter$1
+com/example/quality_control/Cls_Stock.java
+ com.example.quality_control.Cls_Stock
+com/example/quality_control/MensajeToast.java
+ com.example.quality_control.MensajeToast
+ com.example.quality_control.MensajeToast$1
+com/example/quality_control/PopupLote.java
+ com.example.quality_control.PopupLote
+ com.example.quality_control.PopupLote$1
+ com.example.quality_control.PopupLote$2
+ com.example.quality_control.PopupLote$3
+com/example/quality_control/MyListAdapter.java
+ com.example.quality_control.MyListAdapter
+com/example/quality_control/Marca.java
+ com.example.quality_control.Marca
+com/example/quality_control/Plantas.java
+ com.example.quality_control.Plantas
+com/example/quality_control/Detalle_QCShipped.java
+ com.example.quality_control.Detalle_QCShipped
+com/example/quality_control/ImageItem.java
+ com.example.quality_control.ImageItem
+com/example/quality_control/NavigationDrawerFragment.java
+ com.example.quality_control.NavigationDrawerFragment
+ com.example.quality_control.NavigationDrawerFragment$1
+ com.example.quality_control.NavigationDrawerFragment$2
+ com.example.quality_control.NavigationDrawerFragment$3
+ com.example.quality_control.NavigationDrawerFragment$NavigationDrawerCallbacks
+com/example/quality_control/Prueba.java
+ com.example.quality_control.Prueba
+com/example/quality_control/Cabecera_Orden.java
+ com.example.quality_control.Cabecera_Orden
+com/example/quality_control/Cls_Lote.java
+ com.example.quality_control.Cls_Lote
+com/example/quality_control/Foto_Embarque.java
+ com.example.quality_control.Foto_Embarque
+com/example/quality_control/Conexion.java
+ com.example.quality_control.Conexion
+com/example/quality_control/Inventary.java
+ com.example.quality_control.Inventary
+ com.example.quality_control.Inventary$1
+ com.example.quality_control.Inventary$2
+ com.example.quality_control.Inventary$3
+ com.example.quality_control.Inventary$ListAdapterDetalle
+ com.example.quality_control.Inventary$ListAdapterDetalle$1
+ com.example.quality_control.Inventary$Startsyntask
+ com.example.quality_control.Inventary$Startsyntask$1
+com/example/quality_control/Lote.java
+ com.example.quality_control.Lote
+ com.example.quality_control.Lote$1
+ com.example.quality_control.Lote$2
+ com.example.quality_control.Lote$3
+com/example/quality_control/ExtendedViewPager.java
+ com.example.quality_control.ExtendedViewPager
+com/example/quality_control/ListDetalleAdapter.java
+ com.example.quality_control.ListDetalleAdapter
+com/example/quality_control/GaleryEmpaque.java
+ com.example.quality_control.GaleryEmpaque
+ com.example.quality_control.GaleryEmpaque$1
+ com.example.quality_control.GaleryEmpaque$ImageAdapter
+com/example/quality_control/PopupMuestra.java
+ com.example.quality_control.PopupMuestra
+ com.example.quality_control.PopupMuestra$1
+ com.example.quality_control.PopupMuestra$2
+ com.example.quality_control.PopupMuestra$3
+com/example/quality_control/Foto_View2.java
+ com.example.quality_control.Foto_View2
+ com.example.quality_control.Foto_View2$1
+ com.example.quality_control.Foto_View2$TouchImageAdapter
+com/example/quality_control/BuildConfig.java
+ com.example.quality_control.BuildConfig
+com/example/quality_control/Talla.java
+ com.example.quality_control.Talla
+com/example/quality_control/Cabecera_datos.java
+ com.example.quality_control.Cabecera_datos
+com/example/quality_control/Reporte.java
+ com.example.quality_control.Reporte
+ com.example.quality_control.Reporte$ListAdapterReporte
+ com.example.quality_control.Reporte$ListAdapterReporteFijo
+com/example/quality_control/Reporte_Lote.java
+ com.example.quality_control.Reporte_Lote
+ com.example.quality_control.Reporte_Lote$1
+ com.example.quality_control.Reporte_Lote$2
+ com.example.quality_control.Reporte_Lote$3
+ com.example.quality_control.Reporte_Lote$ImageAdapter
+ com.example.quality_control.Reporte_Lote$ListAdapterReporteDetalleA
+ com.example.quality_control.Reporte_Lote$ListAdapterReporteDetalleB
+ com.example.quality_control.Reporte_Lote$ListAdapterReporteDetalleC
+ com.example.quality_control.Reporte_Lote$ListMuestraAdapter
+com/example/quality_control/ImageAdapters.java
+ com.example.quality_control.ImageAdapters
+com/example/quality_control/menuprincipal.java
+ com.example.quality_control.menuprincipal
+ com.example.quality_control.menuprincipal$1
+ com.example.quality_control.menuprincipal$2
+ com.example.quality_control.menuprincipal$3
+ com.example.quality_control.menuprincipal$Startsyntask
+ com.example.quality_control.menuprincipal$Startsyntask1
+com/example/quality_control/MainActivity.java
+ com.example.quality_control.MainActivity

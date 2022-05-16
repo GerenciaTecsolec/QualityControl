@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.quality_control.Inventary" >
+    
+<!--     <item  -->
+<!--    	    android:id="@+id/delete_icon" -->
+<!--    	    android:icon="@drawable/trash" -->
+<!--    	    android:title="@string/DelecteInventary" -->
+<!--    		android:showAsAction="always" -->
+<!--    		android:titleCondensed="Delete Lote"> -->
+<!--    	</item> -->
+   	<item 
+   	    android:id="@+id/save_icon"
+   	    android:icon="@drawable/saved"
+   	    android:title="@string/DelecteInventary"
+   		android:showAsAction="always"
+   		android:titleCondensed="Save Stock">
+   	</item>
+
+</menu>

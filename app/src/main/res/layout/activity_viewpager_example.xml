@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background" >
+    
+    <!-- ExtendedViewPager is a custom view and must be referred to by its full package name in XML -->
+
+    <com.example.quality_control.ExtendedViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ventas1" >
+    </com.example.quality_control.ExtendedViewPager>
+	
+    <TextView
+        android:id="@+id/txt_tipofoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="#90000000"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Letras" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txt_tipofoto"
+        android:layout_alignParentLeft="true"
+        android:background="#90000000"
+        android:padding="5dp"
+        android:textColor="@color/Letras" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:background="#90000000"
+        android:padding="5dp"
+        android:textColor="@color/Letras" />
+	
+</RelativeLayout>

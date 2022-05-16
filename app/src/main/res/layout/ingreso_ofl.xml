@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background" >
+
+    <TextView
+        android:id="@+id/txttitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="PROCESS CONTROL"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Letras"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:id="@+id/scrolllote"
+        android:layout_width="wrap_content"
+        android:layout_height="745dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_toLeftOf="@+id/imageButton1" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="635dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txttitulo"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:baselineAligned="true"
+            android:focusable="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="408dp"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtpsoneto"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="DATE:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtnumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.32"
+                    android:inputType="date"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtcliente"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Code Lote:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtcodlotem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txttotalpor"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="GROSS WEIGHT:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtpesobruto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtsoftpor"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="NET WEIGHT:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtpesoneto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txttienum"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="TOTAL PIECES:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtpiezas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txttiepor"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="COUNT:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtconteo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtdeformednum"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="UNIFORMITY:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtuniformity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtsoftnum"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="PPM:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtpesodeclarado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/Letras" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/lblsoft"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="SOFT:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtsoft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/lblloosehead"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="TIE:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtloosehead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/lblredhead"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="DEFORMED:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtredhead"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/lbldeformed"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="DETERIORO:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtdeformed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/lbldehydrated"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="DEHYDRATED:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtdehydrated"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/lblbustedhead"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="BROKEN:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtbustedhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/lbloutsize"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="OUT CLASIFICATION:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtoutsize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/lblbroken"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="BAD HEAD:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtbroken"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/lblStrangeMaterials"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="MELANOSIS:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtStrangeMaterials"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/lblRedShell"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="BLACK SPOTS:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtredshell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="MIX SPECIES:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtmelanosis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/lblmolted"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="MOULTED:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtmolted"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/lblBlackSpots"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="DAMAGED:"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtblackspot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="@color/Letras" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txttotalpiezas"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="FLAVOR:"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/cmbflavor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtobservacion"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="OLOR:"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/cmbolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtmelanosisnum"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="TEXTURE:"
+                    android:textColor="@color/Letras"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/cmbtextura"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="26dp"
+        android:layout_marginRight="22dp"
+        android:onClick="btngrabar_Click"
+        android:src="@drawable/btnaddmuestra" />
+
+    <Button
+        android:id="@+id/btnfotolote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:layout_alignRight="@+id/imageButton1"
+        android:layout_below="@+id/txttitulo"
+        android:background="@drawable/camara"
+        android:onClick="btnfotolote_Click" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ventas1" >
+    </RelativeLayout>
+
+</RelativeLayout>

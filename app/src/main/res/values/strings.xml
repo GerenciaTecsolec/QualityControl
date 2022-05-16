@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quality Control</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_us">About US</string>
+    <string name="btnLogin">Log In</string>
+    <string name="Hola">Hola</string>
+    <string name="Exit">Exit</string>
+    <string name="lorem_ipsum">lorem_ipsum</string>
+    <string name="Take_Picture">Take_Picture</string>
+    <string name="SaveLote">SaveLote</string>
+    <string name="UploadInformation">UploadInformation</string>
+    <string name="DeleteLote">DeleteLote</string>
+    <string name="DelecteInventary">Delete_Inventary</string>
+    <string name="SearchLote">SearchLote</string>
+    <string name="TakePicture">Take pictures</string>
+    <string name="SaveSample">Save Sample</string>
+    <string name="DeleteSample">DeleteSample</string>
+    <string name="SearchSample">SearchSample</string>
+    <string name="EditSample">EditSample</string>
+    <string name="UpdateList">UpdateList</string>
+    <string name="ShareImage">Share Picture</string> 
+    <string name="action_previous">action_previous</string>
+    <string name="swipe_viewpager">swipe_viewpager</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_prueba">Prueba</string>
+    <string name="title_activity_inventary">Inventary</string>
+
+</resources>

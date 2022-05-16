@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+        	 <TextView
+		        android:id="@+id/txtnumber"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="#FFFFFF"
+		        android:textStyle="bold"		   
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+    
+		    <TextView
+		        android:id="@+id/lblHarvest"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignLeft="@+id/lblDateETD"
+		        android:layout_below="@+id/population"
+		        android:text="Harvest: "
+		        android:textAppearance="?android:attr/textAppearanceButton"
+		        android:textColor="#FFFFFF"
+		        android:textStyle="bold" />
+		    
+		    <TextView
+		        android:id="@+id/txtHarvest"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_above="@+id/txtFechaETD"
+		        android:layout_alignLeft="@+id/txtFechaETD"
+		        android:paddingRight="10dp"
+		        android:textAppearance="?android:attr/textAppearanceButton"
+		        android:textColor="#FFFFFF" />
+		  
+		</LinearLayout>
+		
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lblDateETA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date ETA: "
+                android:textAppearance="?android:attr/textAppearanceButton"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+		
+		    <TextView
+		        android:id="@+id/txtfechaETA"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textAppearance="?android:attr/textAppearanceButton"
+		        android:textColor="#FFFFFF" />
+		
+		</LinearLayout>
+		
+		<LinearLayout 
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:orientation="horizontal">
+   
+		     <TextView
+		        android:id="@+id/lblDateETD"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/lblHarvest"
+		        
+		        android:text="Date ETD: "
+		        android:textColor="#FFFFFF"
+		        android:textStyle="bold"
+		        android:textAppearance="?android:attr/textAppearanceButton" />
+		    
+		    
+		    <TextView
+		        android:id="@+id/txtFechaETD"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="#FFFFFF"
+		        android:textAppearance="?android:attr/textAppearanceButton" /> 
+		
+		    
+		</LinearLayout>
+		    
+	</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical" >
+	
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal" >
+		    
+		    <TextView
+		        android:id="@+id/TextView01"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Masters: "
+		        android:textAppearance="?android:attr/textAppearanceButton"
+		        android:textColor="#FFFFFF"
+		        android:textStyle="bold" />      
+		    <TextView  
+		        android:id="@+id/population"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="#FFFFFF"
+		        android:textStyle="bold"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />
+		      
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="right"
+		    android:orientation="horizontal" >
+		        
+		    <Button
+		        android:id="@+id/btnOK"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/borde_boton"
+		        android:onClick="btnOK_Click"
+		        android:paddingLeft="8dp"
+		        android:paddingRight="8dp"
+		        android:text="Create Control"
+		        android:textColor="@color/Letras"
+		        android:textStyle="bold" />
+
+		</LinearLayout>
+		
+	</LinearLayout>		
+         
+</LinearLayout>

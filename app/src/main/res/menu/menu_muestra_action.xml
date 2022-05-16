@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+   	    android:id="@+id/search_icon"
+   	    android:icon="@drawable/buscar"
+   	    android:title="@string/SearchSample"
+   		android:showAsAction="always"
+   		android:titleCondensed="Search Sample">
+   	</item>
+   	<item 
+   	    android:id="@+id/delete_icon"
+   	    android:icon="@drawable/trash"
+   	    android:title="@string/DeleteSample"
+   		android:showAsAction="always"
+   		android:titleCondensed="Delete Sample">
+   	</item>
+   	<item 
+   	    android:id="@+id/edit_icon"
+   	    android:icon="@drawable/pencil"
+   	    android:title="@string/EditSample"
+   		android:showAsAction="always"
+   		android:titleCondensed="Edit Sample">
+   	</item>
+   	<item 
+   	    android:id="@+id/save_icon"
+   	    android:icon="@drawable/saved"
+   	    android:title="@string/SaveSample"
+   		android:showAsAction="always"
+   		android:titleCondensed="Save Sample">
+   	</item>
+   	<item 
+   	    android:id="@+id/foto_icon"
+   	    android:icon="@drawable/camera"
+   	    android:title="@string/TakePicture"
+   		android:showAsAction="always"
+   		android:titleCondensed="Take a Picture">
+   	</item>
+</menu>
+

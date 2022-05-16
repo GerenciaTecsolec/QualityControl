@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: E./TECSOLEC/TradeBay/Quality_Control_AS/app/libs/ksoap2.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/ksoap2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

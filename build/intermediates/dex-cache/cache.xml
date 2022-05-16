@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Sistemas_TTB\Quality_Control_AS\app\libs\mssqlserver.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d43ae3d356692b67037cdc4397cbd387301f51f8">
+        <dex dex="D:\Sistemas_TTB\Quality_Control_AS\app\build\intermediates\pre-dexed\debug\mssqlserver_8c84ac3a3f4775d161ba559e3d15603a99e0ffd7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Sistemas_TTB\Quality_Control_AS\app\libs\httpclient-4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6d220441ca681dddc55a189eae81a437309128b8">
+        <dex dex="D:\Sistemas_TTB\Quality_Control_AS\app\build\intermediates\pre-dexed\debug\httpclient-4.4_5f96ecc7043d7ee9c27a4c1e911df049c7fa42e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Sistemas_TTB\Quality_Control_AS\app\libs\httpcore-4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b3863fd9c8a273ceed4a7fae10f40bb10a2328">
+        <dex dex="D:\Sistemas_TTB\Quality_Control_AS\app\build\intermediates\pre-dexed\debug\httpcore-4.4_1218634df0a80c62461f86ac0e8b806d23821c4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Sistemas_TTB\Quality_Control_AS\app\libs\jtds-1.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1fc4d17efa80dc375767b0c1006584175212e9dc">
+        <dex dex="D:\Sistemas_TTB\Quality_Control_AS\app\build\intermediates\pre-dexed\debug\jtds-1.3.1_4b621fb9a8ad991778863300155955a83b41d175.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Sistemas_TTB\Quality_Control_AS\app\libs\json_simple-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
+        <dex dex="D:\Sistemas_TTB\Quality_Control_AS\app\build\intermediates\pre-dexed\debug\json_simple-1.1_46d60ad6582378e3443a1ab5527be82b579523fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Sistemas_TTB\Quality_Control_AS\app\libs\dropbox-android-sdk-1.6.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="986e7a58e925c6f91b88ae8d3224a0550b65acc7">
+        <dex dex="D:\Sistemas_TTB\Quality_Control_AS\app\build\intermediates\pre-dexed\debug\dropbox-android-sdk-1.6.3_c122ceb328cf302aa44e4c0f9e76aace4e216a76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Sistemas_TTB\Quality_Control_AS\app\libs\msbase.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a28579fa9dd805a7e0f538d6aba9abad7107c452">
+        <dex dex="D:\Sistemas_TTB\Quality_Control_AS\app\build\intermediates\pre-dexed\debug\msbase_94b2f5d8f9d22c2588b31207c24ac6c3d58cf49c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Sistemas_TTB\Quality_Control_AS\app\libs\apache-mime4j-core-0.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="D:\Sistemas_TTB\Quality_Control_AS\app\build\intermediates\pre-dexed\debug\apache-mime4j-core-0.7.2_12a27637250e2370069d5c71fc434dc1a1402a77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Sistemas_TTB\Quality_Control_AS\app\libs\msutil.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="494599d6434697e340b81072b49281c2aafc886d">
+        <dex dex="D:\Sistemas_TTB\Quality_Control_AS\app\build\intermediates\pre-dexed\debug\msutil_8f10b0c4cdc6c4971dc3635fa09a636b3c0d8788.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Sistemas_TTB\Quality_Control_AS\app\libs\httpmime-4.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5b0002c5fb66867ca919be0fbd86de1cfaf76da7">
+        <dex dex="D:\Sistemas_TTB\Quality_Control_AS\app\build\intermediates\pre-dexed\debug\httpmime-4.3_80c029ec16206e54f7ec0920c8568ce2c8c785cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Sistemas_TTB\Quality_Control_AS\app\libs\commons-net-3.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="342fc284019f590e1308056990fdb24a08f06318">
+        <dex dex="D:\Sistemas_TTB\Quality_Control_AS\app\build\intermediates\pre-dexed\debug\commons-net-3.5_5f7709bed2a257f7dd7c712c37758d99d87faf9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Sistemas_TTB\Quality_Control_AS\app\libs\ksoap2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f8ddd5d69d8cdc994cde9af278ff79b06365eee3">
+        <dex dex="D:\Sistemas_TTB\Quality_Control_AS\app\build\intermediates\pre-dexed\debug\ksoap2_ec784b08166fad5643ee305c8ee4f2ed8acbfb0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Sistemas_TTB\Quality_Control_AS\app\libs\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\Sistemas_TTB\Quality_Control_AS\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_b245a484d1aecb1813b2e0107c2daa45d109826c.jar" />
+    </item>
+
+</items>

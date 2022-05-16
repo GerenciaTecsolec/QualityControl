@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical" >
+    
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:layout_marginTop="10dp"
+       android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txttitulo"
+                android:layout_width="59dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="#999999"
+                android:gravity="center"
+                android:text="Gross \n Weight "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Letras"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtpsoneto"
+                android:layout_width="59dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="#999999"
+                android:gravity="center"
+                android:text="Net \n Weight"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Letras"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/lblredhead"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="#999999"
+                android:gravity="center"
+                android:lines="2"
+                android:text="Total \n Pieces"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Letras"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lbldeformed"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="#999999"
+                android:gravity="center"
+                android:text="\nCount"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Letras"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lbldehydrated"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="#999999"
+                android:gravity="center"
+                android:text="\nUniformity"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Letras"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lblbustedhead"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="#999999"
+                android:gravity="center"
+                android:text="\nPPM"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Letras"
+                android:textStyle="bold" />
+
+          
+        </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridfijo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="5dp"
+        android:numColumns="1"
+        android:verticalSpacing="3dp" >
+
+    </GridView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp" >
+        
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:background="#999999"
+            android:gravity="center"
+            android:text="Texture"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/Letras"
+            android:textStyle="bold" />
+
+       <TextView
+           android:id="@+id/TextView02"
+           android:layout_width="70dp"
+           android:layout_height="match_parent"
+           android:layout_marginRight="2dp"
+           android:background="#999999"
+           android:gravity="center"
+           android:text="Flavor"
+           android:textAppearance="?android:attr/textAppearanceSmall"
+           android:textColor="@color/Letras"
+           android:textStyle="bold" />
+
+       <TextView
+           android:id="@+id/TextView03"
+           android:layout_width="70dp"
+           android:layout_height="match_parent"
+           android:layout_marginRight="2dp"
+           android:background="#999999"
+           android:gravity="center"
+           android:text="Olor"
+           android:textAppearance="?android:attr/textAppearanceSmall"
+           android:textColor="@color/Letras"
+           android:textStyle="bold" />
+
+       <TextView
+           android:id="@+id/TextView04"
+           android:layout_width="50dp"
+           android:layout_height="match_parent"
+           android:layout_marginRight="2dp"
+           android:background="#999999"
+           android:gravity="center"
+           android:text="Color"
+           android:textAppearance="?android:attr/textAppearanceSmall"
+           android:textColor="@color/Letras"
+           android:textStyle="bold" />
+        
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="5dp"
+        android:numColumns="1"
+        android:verticalSpacing="3dp" >
+
+    </GridView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txtdefecto1"
+                android:layout_width="59dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="#999999"
+                android:gravity="center"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Letras"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtdefecto2"
+                android:layout_width="59dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="#999999"
+                android:gravity="center"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Letras"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtdefecto3"
+                android:layout_width="59dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="#999999"
+                android:gravity="center"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Letras"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtdefecto4"
+                android:layout_width="59dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="#999999"
+                android:gravity="center"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Letras"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtdefecto5"
+                android:layout_width="59dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="#999999"
+                android:gravity="center"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Letras"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtdefecto6"
+                android:layout_width="59dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="#999999"
+                android:gravity="center"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Letras"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtdefecto7"
+                android:layout_width="59dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:background="#999999"
+                android:gravity="center"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/Letras"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:horizontalSpacing="5dp"
+        android:numColumns="1"
+        android:verticalSpacing="3dp" >
+
+    </GridView>
+
+</LinearLayout>

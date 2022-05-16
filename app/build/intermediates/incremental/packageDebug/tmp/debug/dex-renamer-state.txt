@@ -1,0 +1,4 @@
+#Sun May 15 23:26:13 COT 2022
+base.0=E\:\\TECSOLEC\\TradeBay\\Quality_Control_AS\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
